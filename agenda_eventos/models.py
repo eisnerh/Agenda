@@ -12,6 +12,12 @@ class Cliente(models.Model):
     Correo_electronico = models.CharField(max_length=45)
     Otros_datos_cliente = models.TextField()
 
+    def __str__(self):
+        return self.Nombre_cliente + '  ' + self.Apellido_cliente
+
+    def short_description(self):
+        return self.Nombre_cliente[:15]
+
 
 class ClasificacionEvento(models.Model):
     idClasificacion_evento = models.AutoField(primary_key=True)
@@ -37,12 +43,17 @@ class DetalleEvento(models.Model):
     ClasificacionEvento_idClasificacionEvento = models.ForeignKey(ClasificacionEvento, on_delete=models.CASCADE)
     Evento_idEvento = models.ForeignKey(Evento, on_delete=models.CASCADE)
 
+    def __str__(self):
+        return 'Evento: {}'.format(self.Evento_idEvento)
 
+    
 class EventoCliente(models.Model):
     idEventoCliente = models.AutoField(primary_key=True)
     ClienteIdCliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
     EventoIdEvento = models.ForeignKey(Evento, on_delete=models.CASCADE)
 
+    def __str__(self):
+        return '<Codigo Evento: {}>'.format(self.EventoIdEvento)
 
 class Material(models.Model):
     idMaterial = models.AutoField(primary_key=True)
@@ -59,3 +70,6 @@ class EventoMaterial(models.Model):
     idEventoMaterial = models.AutoField(primary_key=True)
     EventoIdEvento = models.ForeignKey(Evento, on_delete=models.CASCADE)
     MaterialIdMaterial = models.ForeignKey(Material, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return '<Evento: {}>'.format(self.EventoIdEvento)

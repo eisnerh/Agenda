@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23705251-20c9-4cd2-b597-604141db2dcf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agenda_eventos/static/css/materialize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agenda_eventos/static/js/materialize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agenda_eventos/templates/agenda_eventos/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agenda_eventos/templates/agenda_eventos/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agenda_eventos/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda_eventos/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgendaEventos/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AgendaEventos/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgendaEventos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AgendaEventos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agenda_eventos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda_eventos/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agenda_eventos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda_eventos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agenda_eventos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda_eventos/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,89 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AgendaEventos/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-              <folding>
-                <element signature="e#637#669#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agenda_eventos/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agenda_eventos/templates/agenda_eventos/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agenda_eventos/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AgendaEventos/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/agenda_eventos/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-              <folding>
-                <element signature="e#29#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agenda_eventos/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agenda_eventos/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -119,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -144,7 +58,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi" />
-        <option value="$PROJECT_DIR$/agenda_eventos/models.py" />
         <option value="$PROJECT_DIR$/AgendaEventos/settings.py" />
         <option value="$PROJECT_DIR$/AgendaEventos/urls.py" />
         <option value="$PROJECT_DIR$/agenda_eventos/urls.py" />
@@ -154,6 +67,8 @@
         <option value="$PROJECT_DIR$/agenda_eventos/static/js/materialize.js" />
         <option value="$PROJECT_DIR$/agenda_eventos/views.py" />
         <option value="$PROJECT_DIR$/agenda_eventos/admin.py" />
+        <option value="$PROJECT_DIR$/agenda_eventos/forms.py" />
+        <option value="$PROJECT_DIR$/agenda_eventos/models.py" />
       </list>
     </option>
   </component>
@@ -194,20 +109,7 @@
               <item name="AgendaEventos" type="b2602c69:ProjectViewProjectNode" />
               <item name="AgendaEventos" type="462c0819:PsiDirectoryNode" />
               <item name="agenda_eventos" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgendaEventos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgendaEventos" type="462c0819:PsiDirectoryNode" />
-              <item name="agenda_eventos" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgendaEventos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgendaEventos" type="462c0819:PsiDirectoryNode" />
-              <item name="agenda_eventos" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="agenda_eventos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AgendaEventos" type="b2602c69:ProjectViewProjectNode" />
@@ -390,16 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agenda_eventos/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/agenda_eventos/templates/agenda_eventos/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -410,7 +302,7 @@
     <entry file="file://$PROJECT_DIR$/agenda_eventos/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -434,6 +326,20 @@
           <folding>
             <element signature="e#29#61#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agenda_eventos/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agenda_eventos/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
         </state>
       </provider>
     </entry>
