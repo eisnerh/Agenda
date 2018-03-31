@@ -46,7 +46,7 @@ class DetalleEvento(models.Model):
     def __str__(self):
         return 'Evento: {}'.format(self.Evento_idEvento)
 
-    
+
 class EventoCliente(models.Model):
     idEventoCliente = models.AutoField(primary_key=True)
     ClienteIdCliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)

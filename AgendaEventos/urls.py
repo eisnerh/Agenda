@@ -15,8 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.contrib.auth import views as auth_views
+from django.urls import path
+
+from agenda_eventos import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('agenda_eventos/', include('agenda_eventos.urls')),
+    path('', views.IndexTemplateView.as_view(), name='index'),
+    path('signup/', views.signup, name='signup'),
+    path('login/', auth_views.login, name='login'),
+    path('logout/', auth_views.logout, {'next_page': '/'}, name='logout'),
 ]
